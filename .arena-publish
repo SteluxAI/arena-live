@@ -1,0 +1,4 @@
+This directory is published by `python -m ptrade arena publish`.
+Its history is deliberately a SINGLE amended commit: the payload is a periodic snapshot, not a record,
+so keeping every cycle would grow the repository without adding information.
+`arena publish --git` force-pushes ONLY into a directory containing this marker.
